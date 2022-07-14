@@ -1,0 +1,7 @@
+# !/bin/bash
+
+# he demonstrated this file in class - I'm just copying it incase it's helpful
+# basically whatever disk image you pass, it'll print the contents.
+sudo mount $1 /mnt
+sudo ls -l /mnt
+sudo umount /mnt

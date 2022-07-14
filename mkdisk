@@ -1,0 +1,8 @@
+rm -f disk1 disk2 disk3.1 disk3.2
+
+wget 'https://eecs.wsu.edu/~cs360/samples/PROJECT/disk1'
+wget 'https://eecs.wsu.edu/~cs360/samples/PROJECT/disk2'
+wget 'https://eecs.wsu.edu/~cs360/samples/PROJECT/disk3.1'
+wget 'https://eecs.wsu.edu/~cs360/samples/PROJECT/disk3.2'
+
+./mk
